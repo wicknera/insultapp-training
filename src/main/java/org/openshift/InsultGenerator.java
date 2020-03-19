@@ -25,7 +25,7 @@ public class InsultGenerator {
 
 				while (rs.next()) {
 					if (vowels.indexOf(rs.getString("first").charAt(0)) == -1) {
-						article = "a";
+						article = "a very";
 					}
 
 					theInsult = String.format("Thou art %s %s %s %s!", article,
